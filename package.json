@@ -1,0 +1,15 @@
+{
+  "name": "naresh-world-telegram-stream-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram upload bot for authorized Naresh World media ingestion",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
